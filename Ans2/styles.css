@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ECF0F1;
+    color: #2C3E50;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #2C3E50;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.header .back-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.header h1 {
+    font-size: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.profile-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #95A5A6;
+    margin-right: 15px;
+}
+
+.text-details h2 {
+    font-size: 22px;
+    color: #E74C3C;
+    margin-bottom: 5px;
+}
+
+.text-details p {
+    font-size: 14px;
+    color: #95A5A6;
+}
+
+.goal-section {
+    background-color: #2C3E50;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.goal-bar {
+    width: 150px;
+    height: 75px;
+    background: #95A5A6;
+    margin: 10px auto;
+    border-radius: 150px 150px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.semi-circle {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.inner-circle {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    background-color: #ECF0F1;
+    border-radius: 100px 100px 0 0;
+    top: 10px;
+    left: 15px;
+    text-align: center;
+}
+
+.inner-circle span {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    color: #F39C12;
+}
+
+.goal-labels {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    color: #3498DB;
+}
+
+.patient-details-section {
+    padding: 0 20px;
+}
+
+.patient-details-section p {
+    font-size: 16px;
+    color: #2C3E50;
+    margin-bottom: 15px;
+}
+
+.patient-details-section strong {
+    color: #E74C3C;
+}

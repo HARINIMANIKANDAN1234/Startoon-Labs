@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <button class="back-btn">←</button>
+            <h1>View Patient</h1>
+        </header>
+
+        <div class="profile-section">
+            <div class="profile-details">
+                <img src="profile.png" alt="Profile Picture" class="profile-pic">
+                <div class="text-details">
+                    <h2 id="patient-name">S. Meena, F/23</h2>
+                    <p id="patient-id">Patient ID: 87 20200727153457</p>
+                </div>
+            </div>
+
+            <div class="goal-section">
+                <h3>Goal reached</h3>
+                <div class="goal-bar">
+                    <div class="semi-circle">
+                        <div class="inner-circle">
+                            <span id="goal-percentage">40%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="goal-labels">
+                    <span>EMG</span>
+                    <span>ROM</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="patient-details-section">
+            <p><strong>Phone no.:</strong> <span id="phone">8022334455</span></p>
+            <p><strong>Mail ID:</strong> <span id="email">meenarabinsachin2@gmail.com</span></p>
+            <p><strong>Affected side:</strong> <span id="affected-side">Bilateral</span></p>
+            <p><strong>Condition:</strong> <span id="condition">Ortho</span></p>
+            <p><strong>Speciality:</strong> <span id="speciality">Osteoarthritis</span></p>
+            <p><strong>Medical history:</strong> <span id="medical-history">Hypertension, DM, Hypothyroidism</span></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
